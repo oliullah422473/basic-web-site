@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: #EEEDEF;
+    font-family: arial;
+}
+.continer{
+    max-width: 1000px;
+    background-color:#E4F9F5 ;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*------------------------
+personal information start
+-------------------------*/
+<header>{
+ 
+}
+.personal-template-left{
+    float: left;
+    direction: rtl;
+}
+.personal-template-right{
+    float: right;
+    width: 80%;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h5,h6{
+    color: #11999e;
+}
+h4{
+    color: plum;
+}
+
+.header-contract{
+    float: right;
+    padding: 30px;
+}
+.header-contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border:solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*------------------------
+personal information start
+-------------------------*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;   
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*------------------------
+Education section start
+-------------------------*/
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+
+.home{
+    margin: 0 auto;
+    max-width: 10%;
+    background-color: tomato;
+    border-radius: 17px;
+    padding: 10px;
+}
+.home a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.home:hover{
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.8s all ease;
+}
+/*------------------------
+Education section start
+-------------------------*/
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+.footer a:hover{
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: sandybrown;
+}
+.footer a{
+    color: white;
+    text-decoration: None;
+    margin: 20px;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+}

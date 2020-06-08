@@ -1,0 +1,142 @@
+*{margin:0;padding:0;}
+body{background:#CCE8FF}
+#main_wrapper{ 
+	width: 400px;
+	padding:10px;
+	background:#B0D778;
+	margin:auto;
+	border-radius:8px;
+	border:3px solid #5566c1;
+}
+#content{
+	margin-left:30px;
+	margin-right:30px;
+}
+#content select{
+	border:1px solid #00e197;
+}
+#content input{
+	border-radius:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-bottom:10px;
+	width:100%;
+	border:1px solid #2abf00;
+	}
+#head{ 
+	margin:0 auto;
+	box-shadow:1px 1px 4px black,0 0 4px #ddd, 0 0 10px darkblue;
+	background: #8C34E3 ;
+	width:50%;margin-bottom:10px; 
+	height:100%
+}
+#head h2{
+	padding:8px;
+	margin:0px;
+	font-familly:arial black;
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 2px black,0 0 25px blue, 0 0 5px darkblue;
+	border-radius:10px  
+}
+.gp{
+	margin-left:30px;
+	margin-top: 13px;
+}
+#submit_reset input{
+	align:center;
+	margin-top:20px;
+	background: #03A9F4;
+	padding:8px;
+	width:150px;
+	color:white;
+	font-size:15px;
+	border:1px solid #0a8eca;
+	cursor:pointer;
+	border-radius:10px;
+}
+#submit_reset input:hover{
+	background:#D7B600;
+	color:#fff;
+	font-weight:bold;
+	transition:0.6s all ease;
+}
+#abir{
+	margin-left:30px;
+	margin-bottom:10px;
+	padding:8px;
+}
+#submit_reset{
+	margin-left:50px;
+}
+#maincontent{
+	width:100%;
+	background:#ddd;
+	margin-top: 20px;
+}
+.hobby{
+	float:left;
+	width:174px;
+	display:block;
+	height:195px;
+	background:#EABFBF;
+	padding-left: 9px;
+	border-radius: 15px;
+	border:1px solid red;
+}
+.hobby h4{
+	color:#8c2e2e;
+	font-size:28px;
+	margin-top: 12px;
+}
+.content{
+	float:right;
+	width:198px;
+	display:block;
+	height:195px;
+	background:#9FD7F2;
+	padding-left: 9px;
+	border-radius: 15px;
+	border: 1px solid #07F3FF;
+}
+.content h3{
+	font-size:28px;
+	margin-left: 7px;
+	margin-top: 13px;
+	color:#bf59e3;
+}
+.content textarea{
+	height:107px;
+	margin-left:4px;
+	border-radius: 5px;
+}
+#homebtn{
+	background:red;
+}
+.home{
+    margin: 20px auto;
+    max-width: 25%;
+    background-color: tomato;
+    border-radius: 17px;
+    padding: 10px;
+}
+.home a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.home:hover{
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.8s all ease;
+}
+
+
+
+
+
+
+
+
